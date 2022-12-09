@@ -1,0 +1,1 @@
+# eclipse-theia-example-multitab
