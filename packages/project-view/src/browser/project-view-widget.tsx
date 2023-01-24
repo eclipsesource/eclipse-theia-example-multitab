@@ -1,3 +1,13 @@
+/*
+ * Copyright (c) 2022-2023 EclipseSource and others.
+ *
+ * This program and the accompanying materials are made available under the
+ * terms of the Eclipse Public License v. 2.0 which is available at
+ * http://www.eclipse.org/legal/epl-2.0, or the MIT License which is
+ * available at https://opensource.org/licenses/MIT.
+ *
+ * SPDX-License-Identifier: EPL-2.0 OR MIT
+ */
 import { DisposableCollection, Emitter } from '@theia/core';
 import { ApplicationShell, codicon, CorePreferences, DockPanel, DockPanelRenderer, DockPanelRendererFactory, Message, TabBar, Widget } from '@theia/core/lib/browser';
 import { TheiaDockPanel } from '@theia/core/lib/browser/shell/theia-dock-panel';

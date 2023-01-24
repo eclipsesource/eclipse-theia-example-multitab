@@ -52,7 +52,7 @@
     "build-p": "yarn -s compile && lerna run --scope=\"@theia/example-*\" bundle --parallel",
     "build:examples": "lerna run --scope=\"@theia/example-*\" bundle --parallel",
     "clean": "yarn -s rebuild:clean && yarn -s clean",
-    "compile": "echo Compiling TypeScript sources... && yarn -s compile:tsc",
+    "compile": "yarn -s compile:tsc",
     "compile:tsc": "tsc -b",
     "electron": "yarn -s --cwd examples/electron",
     "preinstall": "node-gyp install",
